@@ -1,0 +1,46 @@
+body, html{
+	color: #443524; /*Brown*/
+	font-family: "Segoe UI",Roboto;
+}
+
+.parallax {
+	background-image: url("yellowBackground.jpg"); /* image used*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron{
+	background-color: #E8E8E8; /*Light Grey*/
+	opacity: 0.9;
+}
+
+img{
+	filter: grayscale(70%);
+	box-shadow: 0 8px 8px 0 grey;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: #443524; /*Brown*/
+}
+
+h2{
+	text-decoration: underline;
+}
+
+.lead{
+	color: #443524; /*Brown*/
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+hr{
+	border-color: #E8AF04; /*Yellow*/
+	
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(232,175,4, .1), rgba(232,175,4, 1), rgba(232,175,4, .1));
+}
